@@ -31,6 +31,11 @@ export default {
       type: 'image',
       options: {hotspot: true},
     },
+    {
+      name: 'videoURL',
+      title: 'Video URL',
+      type: 'string',
+    },
   ],
   preview: {
     select: {
