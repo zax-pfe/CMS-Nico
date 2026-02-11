@@ -34,12 +34,16 @@ export default {
     {
       name: 'videoURL',
       title: 'Video URL',
-      type: 'string',
+      type: 'array',
+      of: [{type: 'string'}],
+      description: 'Liste de URLs de vidéos',
     },
     {
       name: 'thumbnailURL',
       title: 'Thumbnail URL',
-      type: 'string',
+      type: 'array',
+      of: [{type: 'string'}],
+      description: 'Liste de URLs de thumbnails',
     },
   ],
   preview: {
